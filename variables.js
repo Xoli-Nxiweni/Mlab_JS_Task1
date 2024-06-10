@@ -10,7 +10,11 @@ let age = 26;
 const isStudent = true;
 
 //4
-console.log(`${name}, ${age}, ${isStudent}`);
+console.log(`
+            ${name}, 
+            ${age}, 
+            ${isStudent}
+            `);
 console.log();
 
 //Exercise 2: Variable Reassignment
@@ -42,4 +46,9 @@ sum = num1 + num2;
 difference = num1 - num2;
 product = num1 * num2;
 quotient = num1 / num2;
-console.log(`sum = ${sum}, difference = ${difference}, product = ${product}, quotient = ${quotient}`);
+console.log(`
+            sum = ${sum}, 
+            difference = ${difference}, 
+            product = ${product}, 
+            quotient = ${quotient}
+            `);

@@ -77,7 +77,7 @@ while(index <= 50){
 }
 console.log();
 
-//Exercise 5: DO While loops
+//Exercise 5: Do While loops
 
 //1
 let ii = 1;
@@ -97,6 +97,7 @@ do{
     console.log(sumOfDoWhile);
 console.log();
 
+//Both these exercises runs on the browser because they use the prompt() and the alert() functions
 //3
 let greaterThan10;
 let isGreaterThan10 = false;
@@ -115,7 +116,7 @@ console.log();
 
 //4
 let userGuess;
-let randomNum = Math.floor(Math.random() * 10);
+let randomNum = Math.floor(Math.random() * 10) + 1;
 let isNumber = false;
 do{
     userGuess = prompt(`guess the number between 1 and 10`)
@@ -128,5 +129,3 @@ do{
         alert(`That is incorrect. Try again`);
     }
 }while(!isNumber)
-
-
