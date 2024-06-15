@@ -15,11 +15,11 @@ for(let i = 1; i <= 10; i++){
 console.log();
 
 //3
-let sum = 0;
+let sum2 = 0;
 for(let i = 1; i <= 100; i++){
-    sum += i;
+    sum2 += i;
 }
-console.log(sum);
+console.log(sum2);
 console.log();
 
 //4
@@ -37,7 +37,7 @@ for(let i = 0; i < nums.length; i++){
         largestValue = nums[i]
     }
 }
-console.log(largestValue);
+console.log(`The largest number is ${largestValue}`);
 
 // Exercise 4: While loops
 

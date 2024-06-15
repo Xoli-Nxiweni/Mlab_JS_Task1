@@ -38,14 +38,14 @@ console.log();
     //If Statement
 
     //1
-    let num = 3;
-    if(num % 2 == 0 && num % 3 == 0){
+    let num4 = 3;
+    if(num4 % 2 == 0 && num4 % 3 == 0){
         console.log(`Divisible by both`);
     }
-    else if(num % 2 == 0){
+    else if(num4 % 2 == 0){
         console.log(`Divisible by 2`);
     }
-    else if(num % 3 == 0){
+    else if(num4 % 3 == 0){
         console.log(`Divisible by 3`);
     }
     else{
@@ -58,11 +58,11 @@ console.log();
 
     //2
     switch(true){
-        case num % 2 == 0 && num % 3 == 0: console.log(`Divisible by both`);
+        case num4 % 2 == 0 && num4 % 3 == 0: console.log(`Divisible by both`);
         break;
-        case num % 2 == 0: console.log(`Divisible by 2`);
+        case num4 % 2 == 0: console.log(`Divisible by 2`);
         break;
-        case num % 3 == 0: console.log(`Divisible by 3`);
+        case num4 % 3 == 0: console.log(`Divisible by 3`);
         break;
         default: console.log(`Not Divisible by 2 or 3`);
     }
